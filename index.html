@@ -1,15 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Minutes To Seconds</h1>
-    <input type="text">
-    <button>Calculate</button>
-    <span>Answer</span>
-    <script src="index.js"></script>
-</body>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+		<title>Minutes to Seconds</title>
+		
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="card">
+				<h1>Minutes to Seconds</h1>
+				<div>
+					<div class="Time">
+						<h3 class="spacing">Minutes</h3>
+						<input id="Minutes" value="0"/>
+					</div>
+					<div class="Time">
+						<h3 class="spacing">Seconds</h3>
+						<input id="Seconds" value="0"/>
+					</div>
+					
+				</div>
+				<div>
+					<button id="submit" class="spacing" type="submit" value="submit">Convert</button>
+					<button id="reset" class="spacing" type="reset" value="reset">Reset</button>
+				</div>
+			</div>
+		</div>
+        <script src="index.js"></script>
+	</body>
 </html>
